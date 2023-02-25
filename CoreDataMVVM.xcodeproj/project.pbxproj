@@ -11,6 +11,7 @@
 		FA8EEDC729AA82A4005DDD91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EEDC629AA82A4005DDD91 /* ContentView.swift */; };
 		FA8EEDC929AA82A4005DDD91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8EEDC829AA82A4005DDD91 /* Assets.xcassets */; };
 		FA8EEDCC29AA82A4005DDD91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8EEDCB29AA82A4005DDD91 /* Preview Assets.xcassets */; };
+		FA8EEDD429AA8402005DDD91 /* CoreDataMVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA8EEDD229AA8402005DDD91 /* CoreDataMVVM.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FA8EEDC629AA82A4005DDD91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA8EEDC829AA82A4005DDD91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8EEDCB29AA82A4005DDD91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA8EEDD329AA8402005DDD91 /* CoreDataMVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataMVVM.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				FA8EEDC429AA82A4005DDD91 /* CoreDataMVVMApp.swift */,
 				FA8EEDC629AA82A4005DDD91 /* ContentView.swift */,
+				FA8EEDD529AA8432005DDD91 /* Core Data */,
 				FA8EEDC829AA82A4005DDD91 /* Assets.xcassets */,
 				FA8EEDCA29AA82A4005DDD91 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				FA8EEDCB29AA82A4005DDD91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA8EEDD529AA8432005DDD91 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA8EEDD229AA8402005DDD91 /* CoreDataMVVM.xcdatamodeld */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8EEDC729AA82A4005DDD91 /* ContentView.swift in Sources */,
+				FA8EEDD429AA8402005DDD91 /* CoreDataMVVM.xcdatamodeld in Sources */,
 				FA8EEDC529AA82A4005DDD91 /* CoreDataMVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +351,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA8EEDD229AA8402005DDD91 /* CoreDataMVVM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA8EEDD329AA8402005DDD91 /* CoreDataMVVM.xcdatamodel */,
+			);
+			currentVersion = FA8EEDD329AA8402005DDD91 /* CoreDataMVVM.xcdatamodel */;
+			path = CoreDataMVVM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FA8EEDB929AA82A4005DDD91 /* Project object */;
 }
